@@ -46,7 +46,7 @@ span{
 
 .descripcion1{
     color: white;
-    width: 450px;
+    width: 40%
 }
 
 .containerIcons{
@@ -57,7 +57,7 @@ span{
 
 .icon{
     border: 2px solid #F7DF1E;
-    border-radius: 30%;
+    border-radius: 100%;
     width: 50px;
     padding: 5px;
     margin-right: 5%;
@@ -98,27 +98,38 @@ span{
     border: 10px solid #F7DF1E;
     padding: 1px 1px 1px 1px;
     box-shadow: 0 0 30px #F7DF1E;
+    width: 29%
 }
 
 .image img{
-    width: 400px
+    /* width: 400px */
+    width: 100%
 }
 
 
+/* desktop view */
 
 
 @media only screen and (max-width: 1024px) and (min-width: 849px){
     .image{
-        top:16%
+        top:19%
     }
     
     .image img{
-        width: 279px;
-        left:60%
+        width: 100%;
+        /* left:60% */
     }
 
     .BienvenidaHeader{
         margin-left: 10%;
+    }
+
+    .containerIcons{
+        width: 50%;
+    }
+
+    .icon{
+        width: 9%;
     }
 
 
@@ -134,6 +145,10 @@ span{
     body{
         width: 100%;
         background-color: red;
+    }
+
+    .BienvenidaHeader h1{
+        text-align: center;
     }
 
     .BienvenidaHeader{
@@ -200,7 +215,7 @@ span{
     }
 
     .image{
-        width: 60%;
+        width: 30%;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -209,11 +224,41 @@ span{
     }
 
     .image img{
-        width: 250px;
+        width: 100%;
+    }
+
+    .descripcion1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .containerIcons{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .icon{
+        width: 8%;
+        padding: 3px;
+        margin-right: 0%;
+    }
+
+    .icon{
+        padding: 0px;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    .button{
+        margin-left: 0%;
+        width: 99.9%;
     }
 }
 
 @media screen and (max-width: 424px) and (min-width: 320px){
+    body{
+        background-color: magenta;
+    }
 
     .subHeader{
         display: none;
@@ -288,15 +333,31 @@ span{
         width: 100%;
     }
 
-    body{
-        background-color: magenta;
+    .descripcion1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .containerIcons{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .icon{
+        padding: 0px;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    .button{
+        margin-left: 0%;
+        width: 99.5%;
+        font-size: 20px;
     }
 
 }
 
-@media screen and (max-width: 379px) and (min-width: 320px){
-    
-}
 
 
 
