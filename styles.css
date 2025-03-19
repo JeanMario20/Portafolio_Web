@@ -1,0 +1,224 @@
+body{
+    /* font-family: 'Courier New', Courier, monospace; */
+    height: 100%;
+    margin: 0;
+    background-color: #1E1E1E;
+    font-family: system-ui;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 60px 30px 30px 0px;
+}
+
+li{
+    font-size: x-large;
+    padding-right: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.active{
+    color: #F7DF1E;
+}
+
+span{
+    cursor: pointer;
+}
+
+.subHeader-mobile{
+    display: none;
+}
+
+.BienvenidaHeader{
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 20%;
+    color: #F7DF1E;
+}
+
+.NombreH2{
+    color: white;
+}
+
+.descripcion1{
+    color: white;
+    width: 450px;
+}
+
+.containerIcons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.icon{
+    border: 2px solid #F7DF1E;
+    border-radius: 30%;
+    width: 50px;
+    padding: 5px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.button {
+    background-color: #1E1E1E; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.CVButton{
+    background-color: 1E1E1E;
+    color: white;
+    border: 2px solid #F7DF1E;
+    border-radius: 10px;
+}
+
+.CVButton:hover{
+    background-color: #F7DF1E;
+    color: black;
+}
+
+.image{
+    position: absolute;
+    left: 60%;
+    top: 19%;
+    border: 10px solid #F7DF1E;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 0 0 30px #F7DF1E;
+}
+
+.image img{
+    width: 400px
+}
+
+@media only screen and (max-width: 425px){
+
+    .BienvenidaHeader h1{
+        font-size: 25px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .NombreH2{
+        font-size: 18px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    img{
+        width: 40px;
+    }
+    body{
+        background-color: red;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+
+    .BienvenidaHeader{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .introduccion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .subHeader{
+        display: none;
+    }
+    
+    .subHeader-mobile{
+        display: flex;
+        justify-content: flex-end;
+        margin: 40px 0px 30px 20px;
+    }
+
+    .navbar-toggle{
+        background-color: #1E1E1E;
+        border: 2px solid #F7DF1E;
+        color: white;
+        align-items: center;
+        text-decoration: none;
+        width: 80px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #1E1E1E;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 90px;
+        right: 0%;
+    }
+
+    .dropdown-content span {
+        color: white;
+        border: 1px solid #F7DF1E;
+        padding:8px 5px;
+        text-decoration: none;
+        display: block; 
+    }
+
+    .NombreH2{
+        font-size: 25px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .BienvenidaHeader h1{
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+
+    .image{
+        margin: 0%  14.1%;
+        position: relative;
+        left: 0%;
+        top: 0%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .image img{
+        width: 350px;
+        left:60%
+    }
+
+    .BienvenidaHeader{
+        margin-left: 10%;
+    }
+
+
+}
+
+
+
+
+
