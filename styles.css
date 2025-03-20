@@ -1,3 +1,4 @@
+
 body{
     /* font-family: 'Courier New', Courier, monospace; */
     height: 100%;
@@ -39,6 +40,7 @@ span{
     margin-left: 15%;
     color: #F7DF1E;
 }
+
 
 .NombreH2{
     color: white;
@@ -106,6 +108,34 @@ span{
     width: 100%
 }
 
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff566b;
+    border-radius: 30px;
+    height: 800px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 16%;
+    flex-direction:column
+}
+
+.aboutMe h1{
+    font-size: 40px;
+}
+
+.aboutMe h3{
+    width: 50%;
+}
+
+/* 4k desktop view */
+/* @media screen and (max-witd: 2560px) and (min-width: 1444px){
+    .image{
+        width: 20%;
+    }
+} */
 
 /* desktop view */
 
@@ -130,6 +160,10 @@ span{
 
     .icon{
         width: 9%;
+    }
+
+    .aboutMe{
+        margin-top: 24%;
     }
 
 
@@ -253,6 +287,11 @@ span{
         margin-left: 0%;
         width: 99.9%;
     }
+
+    .aboutMe h3{
+        width: 90%;
+        font-size: large;
+    }
 }
 
 @media screen and (max-width: 424px) and (min-width: 320px){
@@ -354,6 +393,11 @@ span{
         margin-left: 0%;
         width: 99.5%;
         font-size: 20px;
+    }
+
+    .aboutMe h3{
+        width: 90%;
+        font-size: large;
     }
 
 }
