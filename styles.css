@@ -130,6 +130,34 @@ span{
     width: 50%;
 }
 
+.proyectos h1{
+    color: white;
+    text-align: center;
+}
+
+.main-container-proyectos{
+    border: 2px dotted rgb(96 139 168);
+    display: grid;
+    gap: 30px 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    /* place-self: center; */
+    width: 90%;
+
+}
+
+.ItemProyectos{
+    border: 10px solid #F7DF1E;
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 /* 4k desktop view */
 /* @media screen and (max-witd: 2560px) and (min-width: 1444px){
     .image{
@@ -164,6 +192,15 @@ span{
 
     .aboutMe{
         margin-top: 24%;
+    }
+
+    .main-container-proyectos{
+        gap: 20px 0px;
+    }
+
+    .ItemProyectos{
+        width: 150px;
+        height: 120px;
     }
 
 
@@ -292,6 +329,17 @@ span{
         width: 90%;
         font-size: large;
     }
+
+    .main-container-proyectos{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .ItemProyectos{
+        width: 130px;
+        height: 190px;
+    }
+
+
 }
 
 @media screen and (max-width: 424px) and (min-width: 320px){
@@ -398,6 +446,15 @@ span{
     .aboutMe h3{
         width: 90%;
         font-size: large;
+    }
+
+    .main-container-proyectos{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .ItemProyectos{
+        width: 200px;
+        height: 250px;
     }
 
 }
