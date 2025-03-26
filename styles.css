@@ -30,6 +30,11 @@ span{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 main-container-proyectos a{
     width: 100%;
     height: 100%;
