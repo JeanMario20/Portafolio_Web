@@ -6,6 +6,8 @@ window.addEventListener("click", function(event){
     if(!document.getElementById('navbar-botton').contains(event.target) && document.getElementById("myDropDownMenu").style.display == "block"){
         hideDropwnMenu()
     }
+
+    
 })
 
 function showHideDropwnMenu() {
