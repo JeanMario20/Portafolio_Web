@@ -72,7 +72,7 @@ main-container-proyectos a{
 }
 
 .icon{
-    border: 2px solid #F7DF1E;
+    /* border: 2px solid #F7DF1E; */
     border-radius: 100%;
     width: 50px;
     padding: 5px;
@@ -156,7 +156,9 @@ main-container-proyectos a{
     margin: 0 auto;
     max-width: 1200px;
     padding: 10px;
-    grid-template-columns: repeat(3,1fr);
+    /* el maximo de columna que tendra será de 3, llevará uno por mientras en lo que pongo otro proyecto */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(1,1fr);
     justify-items:center;
     /* place-self: center; */
     width: 90%;
@@ -262,6 +264,15 @@ main-container-proyectos a{
 .imageProyecto img{
     width: 100%;
     height: 100%;
+}
+
+.footer{
+    background-color: #F7DF1E;
+    margin-top: 20%;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
 }
 /* 4k desktop view */
 /* @media screen and (max-witd: 2560px) and (min-width: 1444px){
@@ -478,7 +489,9 @@ main-container-proyectos a{
     }
 
     .main-container-proyectos{
-        grid-template-columns: repeat(2,1fr);
+        /* el maximo de columna que tendra será de 3, llevará uno por mientras en lo que pongo otro proyecto */
+        /* grid-template-columns: repeat(2,1fr); */
+        grid-template-columns: repeat(1,1fr);
     }
 
 
