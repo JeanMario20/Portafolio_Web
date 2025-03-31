@@ -360,10 +360,10 @@ main-container-proyectos a{
 /* tablet to mobile view */
 
 @media  screen and (max-width: 848px) and (min-width: 425px){
-    body{
+    /* body{
         width: 100%;
         background-color: red;
-    }
+    } */
 
     .BienvenidaHeader h1{
         text-align: center;
@@ -523,7 +523,7 @@ main-container-proyectos a{
 
 }
 
-@media screen and (max-width: 424px) and (min-width: 320px){
+@media screen and (max-width: 424px) and (min-width: 200px){
     /* body{
         background-color: magenta;
     } */
@@ -661,6 +661,110 @@ main-container-proyectos a{
     }
 
 }
+
+/* @media screen and (max-width: 319px) and (min-width: 200px){
+    .BienvenidaHeader h1{
+        text-align: center;
+    }
+
+    .BienvenidaHeader{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .introduccion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .subHeader{
+        display: none;
+    }
+    
+    .subHeader-mobile{
+        display: flex;
+        justify-content: flex-end;
+        margin: 40px 0px 30px 20px;
+    }
+
+    .navbar-toggle{
+        background-color: #1E1E1E;
+        border: 2px solid #F7DF1E;
+        color: white;
+        align-items: center;
+        text-decoration: none;
+        width: 80px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #1E1E1E;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 90px;
+        right: 0%;
+    }
+
+    .dropdown-content span {
+        color: white;
+        border: 1px solid #F7DF1E;
+        padding:8px 5px;
+        text-decoration: none;
+        display: block; 
+    }
+
+    .NombreH2{
+        font-size: 25px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .BienvenidaHeader h1{
+        margin: 10px 0px;
+    }
+
+    .image{
+        width: 30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;
+        text-align: center;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .descripcion1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .containerIcons{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .icon{
+        width: 8%;
+        padding: 3px;
+        margin-right: 0%;
+    }
+
+    .icon{
+        padding: 0px;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+} */
 
 
 
