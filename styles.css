@@ -158,7 +158,7 @@ main-container-proyectos a{
     padding: 10px;
     /* el maximo de columna que tendra será de 3, llevará uno por mientras en lo que pongo otro proyecto */
     /* grid-template-columns: repeat(3,1fr); */
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     justify-items:center;
     /* place-self: center; */
     width: 90%;
@@ -216,10 +216,10 @@ main-container-proyectos a{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     background-color: #ffff566b;
     margin: 0% 10%;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     flex-wrap: wrap;
     align-content: center;
@@ -228,6 +228,10 @@ main-container-proyectos a{
 .metas p{
     width: 99%;
     
+}
+
+.bufferAnalisis{
+    height: 400px;
 }
 
 .separacion{
@@ -241,7 +245,7 @@ main-container-proyectos a{
     display: grid;
     color: white;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
     gap: 10px;
     margin: 1% 5%;
 }
@@ -253,10 +257,10 @@ main-container-proyectos a{
 }
 
 .imageProyecto{
-    grid-column: span 2 / span 2;
-    grid-row: span 5 / span 5;
+    grid-column: span 1 / span 2;
+    grid-row: span 5 / span 1;
     grid-column-start: 4;
-    grid-row-start: 1;
+    grid-row-start: 2;
     background-color: #F7DF1E;
     /* height: 50%; */
 }
@@ -335,7 +339,7 @@ main-container-proyectos a{
 
     .mostrarProyectos{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
 
     .explicacionProyecto{
@@ -350,6 +354,9 @@ main-container-proyectos a{
         grid-row-start: 1;
     }
 
+    .bufferAnalisis{
+        height: 60%;
+    }
 
     /* body{
         background-color: blue;
@@ -479,7 +486,7 @@ main-container-proyectos a{
 
     .mostrarProyectos{
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .explicacionProyecto{
@@ -519,6 +526,10 @@ main-container-proyectos a{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .bufferAnalisis{
+        height: 70%;
     }
 
 }
@@ -638,10 +649,10 @@ main-container-proyectos a{
         height: 250px;
     }
 
-    .mostrarProyectos{
+    /* .mostrarProyectos{
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-    }
+        grid-template-rows: repeat(4, 1fr);
+    } */
 
     .explicacionProyecto{
         grid-column: span 5 / span 5;
@@ -658,6 +669,10 @@ main-container-proyectos a{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    
+    .bufferAnalisis{
+        height: 75%;
     }
 
 }
